@@ -2,10 +2,10 @@
 from pyrogram import Client, filters
 import pyrogram
 
-TOKEN = "botunuzun token numarası"
+TOKEN = "Your bot TOKEN"
 
 api_id = 12345
-api_hash = "api hash numaranız"
+api_hash = "Your hash"
 
 #app = Client("test_bot")
 app = Client("test_bot",api_id, api_hash)
